@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+}
+
+.form {
+    width: 100%; /* Adjust to the width of the container */
+    max-width: 500px; /* Limit width for larger screens */
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 5px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    width: 100%; /* Adjust to the width of the container */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.submitBtn {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsla(179, 73%, 47%, 0.831);
+    cursor: pointer;
+    color: white;
+}
+
+.submitBtn:hover {
+    background-color: hsl(180, 53%, 41%);
+}
